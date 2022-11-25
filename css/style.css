@@ -45,7 +45,7 @@ p {
     bottom: 20px;
     right: 25px;
     cursor: pointer;
-    background-color: #ff0000;
+    background-color: #FF0000;
     color: rgb(255, 255, 255);
     width: 40px;
     height: 40px;
@@ -101,7 +101,7 @@ nav {
 }
 
 .nav-fixed h2 {
-    color: #ff7702 !important;
+    color: #FF0000 !important;
 }
 
 .nav-fixed .nav ul a {
@@ -126,7 +126,7 @@ nav {
 
 .nav ul a:before {
     content: "s";
-    background-color: #ff7702;
+    background-color: #FF0000;
     position: absolute;
     top: 0;
     width: 0%;
@@ -148,8 +148,16 @@ nav {
     font-weight: bold;
 }
 
+.home_header_info2 h1 {
+    font-size: 45px;
+    padding: 20px 0px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .logo-par h2 {
-    color: #fff;
+    color: #FFFFFF;
     font-size: 40px;
 }
 
@@ -172,12 +180,43 @@ nav {
     overflow: hidden;
 }
 
+.home_header_info2 a {
+    background-color: #fff;
+    color: #138808;
+    text-decoration: none;
+    padding: 17px 45px;
+    margin-top: 25px;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+}
+
 .home_header_info a:hover {
     color: #fff;
 }
 
+.home_header_info2 a:hover {
+    color: #fff;
+}
+
 .home_header_info a:after {
-    content: "Read More";
+    content: "Apply as Tour Guide";
+    background-color: #138808;
+    width: 0%;
+    font-size: 15px;
+    height: 100%;
+    line-height: 50px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease;
+    right: 0;
+}
+
+.home_header_info2 a:after {
+    content: "Find Tour Guide";
     background-color: #138808;
     width: 0%;
     font-size: 15px;
@@ -192,6 +231,10 @@ nav {
 }
 
 .home_header_info a:hover:after {
+    width: 100%;
+}
+
+.home_header_info2 a:hover:after {
     width: 100%;
 }
 
@@ -478,7 +521,7 @@ section#gallery {
     text-align: center;
     color: #Fff;
     margin-bottom: 30px;
-    background-color:#ff7722;
+    background-color:#ff0000;
     padding: 10px 20px;
     margin: 20px 0px;
     cursor: pointer;
@@ -757,7 +800,7 @@ footer {
 
 .copyright {
     text-align: center;
-    background-color: #ff7708;
+    background-color: #ff0000;
     color: #fff;
     padding: 14px 0px;
     margin: 50px 0px 0px 0px;
